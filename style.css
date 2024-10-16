@@ -1,0 +1,39 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   line-height: 1.4;
+   scroll-behavior: smooth;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+   background: linear-gradient(90deg, pink, lightblue);
+ }
+
+ .container {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+ }
+
+ input {
+    padding: 10px;
+ }
+
+ button {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ }
